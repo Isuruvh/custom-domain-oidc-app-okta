@@ -1,0 +1,121 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f5f7fb;
+  margin: 0;
+  padding: 40px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+.card {
+  width: min(100%, 720px);
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(15, 23, 42, 0.08);
+  padding: 30px;
+  box-sizing: border-box;
+}
+
+.title {
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: #111827;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  font-size: 1rem;
+  color: #4b5563;
+  margin-bottom: 20px;
+}
+
+#content-jwt {
+  margin-bottom: 20px;
+  color: #111827;
+  line-height: 1.5;
+}
+
+.token-card {
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 10px;
+  margin-bottom: 18px;
+  padding: 16px;
+}
+
+.token-card h3 {
+  margin: 0 0 12px;
+  font-size: 1.05rem;
+  text-transform: capitalize;
+}
+
+.token-meta {
+  display: grid;
+  gap: 8px;
+  margin-bottom: 12px;
+  color: #374151;
+  font-size: 0.95rem;
+}
+
+.token-card pre,
+.pkce-meta pre {
+  margin: 0;
+  padding: 12px;
+  background: #111827;
+  color: #e5e7eb;
+  border-radius: 8px;
+  white-space: pre-wrap;
+  word-break: break-word;
+  font-size: 0.8rem;
+  overflow-x: auto;
+}
+
+.pkce-meta {
+  display: grid;
+  gap: 8px;
+  font-size: 0.95rem;
+  color: #374151;
+  word-break: break-word;
+}
+
+.pkce-meta pre {
+  font-family: Consolas, Monaco, monospace;
+}
+
+#login-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+button {
+  border: none;
+  border-radius: 8px;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 12px 18px;
+  transition: opacity 0.2s ease;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+.primary-btn {
+  background: #2563eb;
+}
+
+.entra-btn {
+  background: #0078d4;
+}
+
+.logout-btn {
+  margin-top: 40px;
+  background: #6b7280;
+}
