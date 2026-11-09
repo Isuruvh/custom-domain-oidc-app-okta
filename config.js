@@ -2,7 +2,7 @@ var isLocalDevelopment = window.location.hostname === "localhost" || window.loca
 
 window.APP_CONFIG = {
     oktaSignInWidgetUrl: "https://global.oktacdn.com/okta-signin-widget/7.49.0/js/okta-sign-in.min.js",
-    appClientID: "0oa177itafo7kka7e698",
+    appClientID: "0oa19123myqdEDJ6a698",
     entraIdpId: "0oa16izocu4ayhhsz698",
     redirectUri: isLocalDevelopment
         ? "http://localhost:9000/callback"
